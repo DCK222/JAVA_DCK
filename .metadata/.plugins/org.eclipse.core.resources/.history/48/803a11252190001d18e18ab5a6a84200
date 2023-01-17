@@ -1,0 +1,28 @@
+package Conjuntos;
+
+import java.util.Scanner;
+
+public class Numeros {
+
+	public static void main(String[] args) {
+		
+		//PEDIMOS AL USUARIO UN NUMERO ENTRE EL 1 Y 10
+		//CREAMOS UN ARRAY DE NUMEROS CON ESE TAMAÑO
+		//RELLENAMOS EL ARRAY CON NUMEROS ALEATORIOS DEL 0 AL 10
+		//IMPRIMIMOS EL ARRAY
+		//MOSTRAMOS LOS NUMEROS QUE NO ESTAN REPETIDOS
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Dame un numero comprendido del 1-10");
+		
+		int respuesta = sc.nextInt();
+		
+		int [] tuchavlit = {(int) Math.random()};
+		
+		
+		
+
+	}
+
+}

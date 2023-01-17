@@ -1,0 +1,18 @@
+package Conjuntos;
+
+public class EjercicioLinkedhashSet {
+
+	public static void main(String[] args) {
+		
+		
+		String nombres[] = {"Alfredo", "Zacarias" , "Sturrige", "Memento"};
+		
+		for (int i = 0; i < nombres.length; i++) {
+			
+		}
+		
+		System.out.println("Los nombres son: " + nombres.clone());
+
+	}
+
+}

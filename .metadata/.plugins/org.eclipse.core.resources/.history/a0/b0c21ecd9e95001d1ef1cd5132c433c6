@@ -1,0 +1,14 @@
+package Conjuntos;
+
+public class EjercicioLinkedhashSet {
+
+	public static void main(String[] args) {
+		
+		
+		String nombres[] = {"Alfredo", "Zacarias", "Sturrige", "Adolfo"};
+		
+		System.out.println("Los nombres son: " + nombres);
+
+	}
+
+}

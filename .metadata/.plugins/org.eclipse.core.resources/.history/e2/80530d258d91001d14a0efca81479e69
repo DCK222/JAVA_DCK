@@ -1,0 +1,48 @@
+package Conjuntos;
+
+import java.util.HashSet;
+
+public class DivisoresDosyTresInterseccion {
+
+	public static void main(String[] args) {
+		
+		//****USAR FUNCIONES****
+		//CREAR DOS HASHSET DE NUMEROS ALEATORIOS. EL NUMERO DE COMPONENTES DE CADA HASHSET
+		//TAMBIEN SERA ALEATORIO ENTRE 30 Y 100 NUMEROS
+		//ORDENAR LOS ELEMENTOS DEL CONJUNTO Y MOSTRARLOS
+		//HALLAR LA INTERSECCION DE AMBOS CONJUNTOS Y MOSTRARLA
+		//HALLAR LOS DIVISORES DE 2 Y 3 DE LA INTERSECCION
+		
+		HashSet<Integer> naleatorios = new HashSet<>();
+		HashSet<Integer> naleatorios2 = new HashSet<>();
+		
+		int [] numeros = new int [100]; 
+		int aleatorio = (int) Math.random()*100;
+		
+		for (int i = 0; i < numeros.length; i++) {
+			
+			numeros[i] = (int) (Math.random()*100)+1;
+		
+		}
+		
+		System.out.println("[ "+numeros+" ]");
+		
+	
+		for (int i = 0; i < naleatorios.size(); i++) {
+			
+			for (int j = 0; j < naleatorios2.size(); j++) {
+				
+				
+				
+			}
+			
+			
+		}
+		
+		
+		
+		
+
+	}
+
+}

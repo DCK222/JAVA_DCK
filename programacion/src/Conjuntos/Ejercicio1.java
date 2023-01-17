@@ -1,0 +1,51 @@
+package Conjuntos;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		String [] amarillo = {"Luis","Ana","Beto","Ines"};
+		
+		String [] azul = {"Ana", "Beto", "Pedro"};
+
+		for (int i = 0; i < amarillo.length; i++) {
+			for (int j = 0; j < azul.length; j++) {
+				if(amarillo[i].equals(azul[j])) {
+					System.out.println(amarillo[i]);
+				}
+					
+			}
+		}
+		
+		//2ºCASO CON LISTAS.
+		
+		List<String> amarillo1 = Arrays.asList(amarillo);
+		List<String> azul1 = Arrays.asList(azul);
+		List<String> Resultado = new ArrayList<String>();
+		
+		
+		for (int i = 0; i < azul1.size(); i++) {
+			if (amarillo1.contains(azul1.get(i))) {
+				Resultado.add(azul1.get(i));
+			}
+			
+			
+		}
+		
+		System.out.println(Resultado);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package Conjuntos;
+
+import java.util.Iterator;
+import java.util.List;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		String [] amarillo = {"Luis","Ana","Beto","Ines"};
+		
+		String [] azul = {"Ana", "Beto", "Pedro"};
+
+		for (int i = 0; i < amarillo.length; i++) {
+			for (int j = 0; j < azul.length; j++) {
+				if(amarillo[i].equals(azul[j])) {
+					System.out.println(amarillo[i]);
+				}
+					
+			}
+		}
+		
+
+	}
+
+}

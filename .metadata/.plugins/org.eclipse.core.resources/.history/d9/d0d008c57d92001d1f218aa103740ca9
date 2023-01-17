@@ -1,0 +1,22 @@
+package Conjuntos;
+
+import java.util.Scanner;
+
+public class Reto {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Introduce numeros que no se repitan: ");
+		
+		int respuesta = sc.nextInt();
+		
+		int [] numeros = respuesta.split(" ");
+		
+		
+	
+
+	}
+
+}

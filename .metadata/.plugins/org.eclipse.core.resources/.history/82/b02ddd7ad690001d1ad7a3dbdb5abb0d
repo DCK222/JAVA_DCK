@@ -1,0 +1,39 @@
+package Conjuntos;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class PrimerHashSet {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		HashSet<String> conjuntoA = new HashSet<>();
+		HashSet<String> conjuntoB = new HashSet<>();
+
+		// PEDIMOS LOS NOMBRES AL USUARIO.
+		//CONJUNTO A
+
+		System.out.println("Escribe varios nombres separados por espacios: ");
+
+		String respuesta = sc.nextLine();
+
+		String[] arraynombres = respuesta.split(" ");
+		
+		//CONJUNTO B
+		
+		System.out.println("Escribe varios nombres separados por espacios: ");
+
+		String respuesta2 = sc.nextLine();
+
+		String[] arraynombres2 = respuesta.split(" ");
+		
+		for (int i = 0; i < arraynombres.hashCode(); i++) {
+			
+		}
+		
+		
+
+	}
+
+}

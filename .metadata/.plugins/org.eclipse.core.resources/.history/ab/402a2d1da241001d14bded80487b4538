@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package trabajo_entornos;
+
+public class Trabajo_Entornos {
+
+	
+	public static void main(String[] args) {
+		
+		int num1=3, num2=7;
+		int recogeResultado = multiplicar(num1, num2);
+		
+		System.out.print("Num1: %");
+		
+		
+		
+
+	}
+
+
+
+}

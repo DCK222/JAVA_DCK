@@ -1,0 +1,123 @@
+public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Introduse:");
+		String texto = sc.nextLine();
+
+		// CODIFICADOR
+		if (texto.contains("a") || texto.contains("b") || texto.contains("c") || texto.contains("d")
+				|| texto.contains("e") || texto.contains("f") || texto.contains("g") || texto.contains("h")
+				|| texto.contains("i") || texto.contains("j") || texto.contains("k") || texto.contains("l")
+				|| texto.contains("m") || texto.contains("n") || texto.contains("ñ") || texto.contains("o")
+				|| texto.contains("p") || texto.contains("q") || texto.contains("r") || texto.contains("s")
+				|| texto.contains("t") || texto.contains("u") || texto.contains("v") || texto.contains("w")
+				|| texto.contains("x") || texto.contains("y") || texto.contains("z") || texto.contains("1")
+				|| texto.contains("2") || texto.contains("3") || texto.contains("4") || texto.contains("5")
+				|| texto.contains("6") || texto.contains("7") || texto.contains("8") || texto.contains("9")
+				|| texto.contains("0")) {
+
+			texto = texto.replace("a", "·%$");
+			texto = texto.replace("b", "^@º");
+			texto = texto.replace("c", "//$");
+			texto = texto.replace("d", "¿@-");
+			texto = texto.replace("e", "&!´");
+			texto = texto.replace("f", "´@=");
+			texto = texto.replace("g", "¿?&");
+			texto = texto.replace("h", "º#$");
+			texto = texto.replace("i", "@$%");
+			texto = texto.replace("j", "··@");
+			texto = texto.replace("k", "/&/");
+			texto = texto.replace("l", "@·(");
+			texto = texto.replace("m", "(@)");
+			texto = texto.replace("n", "#-:");
+			texto = texto.replace("ñ", ":)%");
+			texto = texto.replace("o", "·&#");
+			texto = texto.replace("p", ":/·");
+			texto = texto.replace("q", "!&:");
+			texto = texto.replace("r", "¿(?");
+			texto = texto.replace("s", "-@º");
+			texto = texto.replace("t", "-:@");
+			texto = texto.replace("u", "-·]");
+			texto = texto.replace("v", "·#/");
+			texto = texto.replace("w", "·$·");
+			texto = texto.replace("x", "+··");
+			texto = texto.replace("y", "=¿:");
+			texto = texto.replace("z", "!|@");
+
+			// CODIFICADOR PARTE DE NUMEROS
+			texto = texto.replace("1", "|·|");
+			texto = texto.replace("2", "/·/");
+			texto = texto.replace("3", "])[");
+			texto = texto.replace("4", "&=&");
+			texto = texto.replace("5", "|||");
+			texto = texto.replace("6", "ººº");
+			texto = texto.replace("7", "-/-");
+			texto = texto.replace("8", "+).");
+			texto = texto.replace("9", ".+.");
+			texto = texto.replace("0", ")()");
+			System.out.println(texto);
+		}
+
+		// DECODIFICADOR
+		else if (texto.contains("·%$") || texto.contains("^@º") || texto.contains("//$") || texto.contains("¿@-")
+				|| texto.contains("&!´") || texto.contains("´@=") || texto.contains("¿?&") || texto.contains("º#$")
+				|| texto.contains("@$%") || texto.contains("··@") || texto.contains("/&/") || texto.contains("@·(")
+				|| texto.contains("(@)") || texto.contains("#-:") || texto.contains(":)%") || texto.contains("·&#")
+				|| texto.contains(":/·") || texto.contains("!&:") || texto.contains("¿(?") || texto.contains("-@º")
+				|| texto.contains("-:@") || texto.contains("-·]") || texto.contains("·#/") || texto.contains("·$·")
+				|| texto.contains("~··") || texto.contains("=¿:") || texto.contains("!|@") || texto.contains("|·|")
+				|| texto.contains("/·/") || texto.contains("])[") || texto.contains("&=&") || texto.contains("&=&")
+				|| texto.contains("|||") || texto.contains("ººº") || texto.contains("-/-") || texto.contains("+··")
+				|| texto.contains(".+.") || texto.contains(")()")) {
+			texto = texto.replace("·%$", "a");
+			texto = texto.replace("^@º", "b");
+			texto = texto.replace("//$", "c");
+			texto = texto.replace("¿@-", "d");
+			texto = texto.replace("&!´", "e");
+			texto = texto.replace("´@=", "f");
+			texto = texto.replace("¿?&", "g");
+			texto = texto.replace("º#$", "h");
+			texto = texto.replace("@$%", "i");
+			texto = texto.replace("··@", "j");
+			texto = texto.replace("/&/", "k");
+			texto = texto.replace("@·(", "l");
+			texto = texto.replace("(@)", "m");
+			texto = texto.replace("#-:", "n");
+			texto = texto.replace(":)%", "ñ");
+			texto = texto.replace("·&#", "o");
+			texto = texto.replace(":/·", "p");
+			texto = texto.replace("!&:", "q");
+			texto = texto.replace("¿(?", "r");
+			texto = texto.replace("-@º", "s");
+			texto = texto.replace("-:@", "t");
+			texto = texto.replace("-·]", "u");
+			texto = texto.replace("·#/", "v");
+			texto = texto.replace("·$·", "w");
+			texto = texto.replace("+··", "x");
+			texto = texto.replace("=¿:", "y");
+			texto = texto.replace("!|@", "z");
+
+			// DECODIFICADOR PARTE NUMEROS
+			texto = texto.replace("|·|", "1");
+			texto = texto.replace("/·/", "2");
+			texto = texto.replace("])[", "3");
+			texto = texto.replace("&=&", "4");
+			texto = texto.replace("|||", "5");
+			texto = texto.replace("ººº", "6");
+			texto = texto.replace("-/-", "7");
+			texto = texto.replace("+).", "8");
+			texto = texto.replace(".+.", "9");
+			texto = texto.replace(")()", "0");
+			System.out.println(texto);
+		}
+
+		else {
+			System.out.println(texto);
+		}
+
+		sc.close();
+
+	}
+
+}
